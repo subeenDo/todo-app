@@ -14,4 +14,4 @@ Day4 (월) 코드작업</br>
 Day5 (화) 코드작업</br>
 Day6 (수) 오류찾기</br>
      &nbsp;1. select의 option 선택시 그 이름이 화면에 나오지 않음
-	(현재 todo list의 필터링 상태가 나타나지 않음)
+	(현재 todo list의 필터링 상태가 나타나지 않음) 왜 placeholder가 안될까
