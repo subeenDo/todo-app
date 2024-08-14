@@ -1,70 +1,23 @@
-# Getting Started with Create React App
+<h3>TODO 애플리케이션 개발</h3>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Day1 (금) 요구사항 분석</br>
+   &nbsp; &nbsp;1. 구조 정리</br>
+	&nbsp;&nbsp;&nbsp;&nbsp;a. 페이지 이동시 데이터O -> 수정 // 데이터 X -> 추가</br>
+	&nbsp;&nbsp;&nbsp;&nbsp;b. 텍스트 클릭 시 상세보기 모달(고유 Id, 텍스트, 완료여부)</br>
+    &nbsp;&nbsp;2. 추가 요구사항</br>
+	&nbsp;&nbsp;&nbsp;&nbsp;a. 고유Id 생성 -> uuid</br>
+	&nbsp;&nbsp;&nbsp;&nbsp;b. 유효성 검사 -> 빈칸 여부, 중복 등록 불가</br>
+	&nbsp;&nbsp;&nbsp;&nbsp;c. 완료여부에 따른 스타일 적용</br>
+	&nbsp;&nbsp;&nbsp;&nbsp;d. 필터링 버튼 -> 완료 / 미완료</br>
+</br>
+Day2 (토)  Recoil 전역상태관리란 무엇인가</br>
+</br>
+Day3 (일) 보기좋은 떡이 먹기도 좋다 (최소한의 css) / 코드작업</br>
+</br>
+Day4 (월) 코드작업</br>
+</br>
+Day5 (화) 코드작업</br>
+</br>
+Day6 (수) 오류찾기</br>
+  &nbsp;&nbsp;1. 현재 todo list의 필터링 상태가 나타나지 않음 왜 select에는 placeholder가 안될까 -> select 앞에 현재 상태 표시</br>
+  &nbsp;&nbsp;2. 단순히 상태관리의 목적으로 recoil이 필요할까? -> 새로고침해도 데이터가 저장되어있도록 수정
