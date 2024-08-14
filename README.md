@@ -1,3 +1,5 @@
+<h3>TODO 애플리케이션 개발</h3>
+
 Day1 (금) 요구사항 분석</br>
    &nbsp; &nbsp;1. 구조 정리</br>
 	&nbsp;&nbsp;&nbsp;&nbsp;a. 페이지 이동시 데이터O -> 수정 // 데이터 X -> 추가</br>
@@ -9,9 +11,13 @@ Day1 (금) 요구사항 분석</br>
 	&nbsp;&nbsp;&nbsp;&nbsp;d. 필터링 버튼 -> 완료 / 미완료</br>
 </br>
 Day2 (토)  Recoil 전역상태관리란 무엇인가</br>
+</br>
 Day3 (일) 보기좋은 떡이 먹기도 좋다 (최소한의 css) / 코드작업</br>
+</br>
 Day4 (월) 코드작업</br>
+</br>
 Day5 (화) 코드작업</br>
+</br>
 Day6 (수) 오류찾기</br>
   &nbsp;&nbsp;1. 현재 todo list의 필터링 상태가 나타나지 않음 왜 select에는 placeholder가 안될까 -> select 앞에 현재 상태 표시</br>
   &nbsp;&nbsp;2. 단순히 상태관리의 목적으로 recoil이 필요할까? -> 새로고침해도 데이터가 저장되어있도록 수정
