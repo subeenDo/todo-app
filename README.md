@@ -14,4 +14,4 @@ Day4 (월) 코드작업</br>
 Day5 (화) 코드작업</br>
 Day6 (수) 오류찾기</br>
   &nbsp;&nbsp;1. 현재 todo list의 필터링 상태가 나타나지 않음 왜 select에는 placeholder가 안될까 -> select 앞에 현재 상태 표시</br>
-  &nbsp;&nbsp;2. 단순히 상태관리의 목적으로 recoil이 필요할까 -> 새로고침해도 데이터가 저장되어있도록 수정
+  &nbsp;&nbsp;2. 단순히 상태관리의 목적으로 recoil이 필요할까? -> 새로고침해도 데이터가 저장되어있도록 수정
