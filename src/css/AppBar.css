@@ -1,0 +1,18 @@
+.AppBar{
+    margin-top: 25px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding-bottom: 10px;
+}
+
+.AppBar .Header{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.AppBar button{
+    border: none;
+    background-color: white;
+}

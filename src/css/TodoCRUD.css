@@ -1,0 +1,48 @@
+.AddUpdate{
+    display: flex;
+    flex-direction: column;
+}
+.AddUpdate .input{
+    display: flex;
+    gap: 10px;
+}
+
+.AddUpdate input{
+    flex: 1;
+    padding: 15px;
+    border: 1px solid rgb(220,220,220);
+    border-radius: 5px;
+}
+
+.AddUpdate select {
+    flex: 1;
+    padding: 15px;
+    border: 1px solid rgb(220,220,220);
+    border-radius: 5px;
+    appearance: none; /* 브라우저 기본 스타일 제거 */
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-color: white;
+    background-image: url('data:image/svg+xml;charset=US-ASCII,%3Csvg xmlns%3D%27http%3A//www.w3.org/2000/svg%27 width%3D%2710%27 height%3D%275%27 viewBox%3D%270 0 10 5%27%3E%3Cpath fill%3D%27%23000%27 d%3D%27M0 0l5 5 5-5z%27/%3E%3C/svg%3E'); /* 드롭다운 화살표 이미지 */
+    background-repeat: no-repeat;
+    background-position: right 10px center;
+}
+
+.AddUpdate button{
+ cursor: pointer;
+ width: 80px;
+ border: none;
+ color: white;
+ border-radius: 5px;
+ padding: 15px 0;
+}
+
+.AddUpdate .Save{
+    background-color: rgb(37,147,255);
+}
+.AddUpdate .Delete{
+    background-color: rgb(255, 37, 73);
+}
+.AddUpdate .Back{
+    background-color: rgb(141, 141, 141);
+}
