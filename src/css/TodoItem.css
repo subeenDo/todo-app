@@ -38,16 +38,15 @@
     gap: 20px;
 }
 
-.ListTitle select{
-    height: 10px;
-    padding: 15px;
-    border: 1px solid rgb(220,220,220);
+.ListTitle select {
+    padding: 10px 20px;
+    border: 1px solid rgb(220, 220, 220);
     border-radius: 5px;
     appearance: none;
     -webkit-appearance: none;
     -moz-appearance: none;
     background-color: white;
-    background-image: url('data:image/svg+xml;charset=US-ASCII,%3Csvg xmlns%3D%27http%3A//www.w3.org/2000/svg%27 width%3D%2710%27 height%3D%275%27 viewBox%3D%270 0 10 5%27%3E%3Cpath fill%3D%27%23000%27 d%3D%27M0 0l5 5 5-5z%27/%3E%3C/svg%3E');
+    background-image: url("data:image/svg+xml;charset=US-ASCII,%3Csvg xmlns%3D%27http%3A//www.w3.org/2000/svg%27 width%3D%2710%27 height%3D%275%27 viewBox%3D%270 0 10 5%27%3E%3Cpath fill%3D%27%23000%27 d%3D%27M0 0l5 5 5-5z%27/%3E%3C/svg%3E");
     background-repeat: no-repeat;
     background-position: right 10px center;
 }
